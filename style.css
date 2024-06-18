@@ -31,14 +31,13 @@ body{
     margin-left: 42%;
 }
 .main-bt:hover{
-    height: 45px;
-    width: 200px;
+    
     border: 2px black solid;
-    border-radius: 4px;
+    
     font-family: roboto;
     font-weight: 500;
     background-color: rgb(0, 238, 20);
-    margin-left: 42%;
+
 }
 @media only screen and (max-width: 768px) {
     .main-bt{
@@ -50,6 +49,9 @@ body{
         font-weight: 500;
         background-color: aqua;
         margin-left: 30%;
+    }
+    .main-bt:hover{
+        background-color: rgb(20, 230, 20);
     }
 }
 
