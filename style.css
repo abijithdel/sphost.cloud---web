@@ -9,7 +9,15 @@ body{
     background-size: cover;
     background-position: center;
     padding: 10px;
-    height: 500px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main_div_bg a{
+    text-decoration: none;
+    color: black
 }
 .shadow{
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
@@ -17,8 +25,9 @@ body{
 .text-align-center{
     text-align: center;
 }
-.mar{
-    margin-top: 180px;
+.main_title{
+    display: flex;
+
 }
 .main-bt{
     height: 45px;
@@ -28,7 +37,8 @@ body{
     font-family: roboto;
     font-weight: 500;
     background-color: aqua;
-    margin-left: 42%;
+
+
 }
 .main-bt:hover{
     
